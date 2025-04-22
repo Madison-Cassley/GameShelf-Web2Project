@@ -1,4 +1,4 @@
-#Game Library Tracker
+# Game Library Tracker
 
 ## 1. Description
 Game Library Tracker is a lightweight MVC web app for gamers to catalog their PC/console/mobile titles and record play sessions. Each user can:
