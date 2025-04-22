@@ -32,7 +32,7 @@ This app solves the “lost‑track” problem: gamers often forget which games 
 ---
 
 ## 3. Entity Relationships
-
+![EntityRelationships](./assets/Entity)
 --
 
 ## Possible Implementations (if time permits)
