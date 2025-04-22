@@ -3,7 +3,7 @@
 ## 1. Description
 Game Library Tracker is a lightweight MVC web app for gamers to catalog their PC/console/mobile titles and record play sessions. Each user can:
 
-- **Build** a personal library of games (title, platform, cover image).  
+- **Build** a personal library of games (title, platform).  
 - **Log** each play session with date, duration, and quick notes.  
 - **Review** their play history per game to see when and how long they’ve played.  
 
@@ -32,3 +32,9 @@ This app solves the “lost‑track” problem: gamers often forget which games 
 ---
 
 ## 3. Entity Relationships
+
+--
+
+## Possible Implementations (if time permits)
+- Cover Images for games (added as a string url to the games table)
+
