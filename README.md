@@ -33,7 +33,7 @@ This app solves the “lost‑track” problem: gamers often forget which games 
 ## 3. Entity Relationships
 ![EntityRelationships](./assets/EntityRelationships.png)
 ---
-## API Routes
+## 4. API Routes
 | Request                              | Action                                 | Response                          | Description                                               |
 |--------------------------------------|----------------------------------------|-----------------------------------|-----------------------------------------------------------|
 | **GET** `/register`                  | `AuthController.showRegisterForm`      | `200` + `auth/register` view      | Show the user registration form.                          |
@@ -53,6 +53,8 @@ This app solves the “lost‑track” problem: gamers often forget which games 
 | **GET** `/sessions/:id/edit`         | `SessionController.edit`               | `200` + `sessions/edit` view      | Show the form to edit an existing play session.           |
 | **POST** `/sessions/:id`             | `SessionController.update`             | `302 → /games/:gameId`            | Update a session entry, redirect to its game’s detail.    |
 | **POST** `/sessions/:id/delete`      | `SessionController.delete`             | `302 → /games/:gameId`            | Delete a session entry, redirect back to game’s detail.   |
+---
+## 5. Wireframes
 ---
 ## Possible Implementations (if time permits)
 - Cover Images for games (added as a string url to the games table)
